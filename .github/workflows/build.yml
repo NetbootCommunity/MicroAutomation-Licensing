@@ -28,5 +28,14 @@ jobs:
       - name: Restore
         run: dotnet restore
   
-      - name: Build
+      - name: Build Solution
         run: dotnet build --configuration Release --no-restore
+
+      - name: Install JRE
+        run: sudo apt-get update && sudo apt-get -y install default-jre
+
+      - name: Install Sonar Scanner
+        run: dotnet tool install --global dotnet-sonarscanner
+
+      - name: Run SonarQube analysis
+        run: chmod +x ./build/SonarQube.Analysis.sh && ./build/SonarQube.Analysis.sh ${{ secrets.SONARQUBE_TOKEN }}
