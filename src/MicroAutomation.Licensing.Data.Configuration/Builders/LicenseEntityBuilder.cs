@@ -40,7 +40,6 @@ public class LicenseEntityBuilder : IEntityTypeConfiguration<LicenseEntity>
             .HasMaxLength(5000);
 
         builder.Property(x => x.CreatedDataBy)
-            .HasMaxLength(64)
             .IsRequired();
         builder.Property(x => x.CreatedDataUtc)
             .IsRequired();

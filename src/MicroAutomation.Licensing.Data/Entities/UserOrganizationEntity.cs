@@ -1,35 +1,22 @@
 ﻿#region Using
 
 using MicroAutomation.Licensing.Data.Abstracts;
+using MicroAutomation.Licensing.Data.Enum;
 using System;
-using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
 #endregion Using
 
 namespace MicroAutomation.Licensing.Data.Entities;
 
-public class ProductEntity : ICreationAuditable
+public class UserOrganizationEntity : ICreationAuditable
 {
     #region Data
 
     public Guid Id { get; set; }
-
-    [JsonIgnore]
     public Guid OrganizationId { get; set; }
-
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public string Company { get; set; }
-
-    [JsonIgnore]
-    public string PassPhrase { get; set; }
-
-    [JsonIgnore]
-    public string PrivateKey { get; set; }
-
-    [JsonIgnore]
-    public string PublicKey { get; set; }
+    public Guid UserId { get; set; }
+    public OrganizationRole Role { get; set; }
 
     #endregion Data
 
@@ -39,7 +26,7 @@ public class ProductEntity : ICreationAuditable
     public OrganizationEntity Organization { get; set; }
 
     [JsonIgnore]
-    public ICollection<LicenseEntity> Licenses { get; set; }
+    public UserEntity User { get; set; }
 
     #endregion Navigation
 

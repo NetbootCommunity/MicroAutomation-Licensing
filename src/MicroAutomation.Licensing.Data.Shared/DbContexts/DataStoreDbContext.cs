@@ -20,9 +20,15 @@ namespace MicroAutomation.Licensing.Data.Shared.DbContexts
 
             builder.ApplyConfiguration(new LicenseEntityBuilder());
             builder.ApplyConfiguration(new ProductEntityBuilder());
+            builder.ApplyConfiguration(new OrganizationEntityBuilder());
+            builder.ApplyConfiguration(new UserEntityBuilder());
+            builder.ApplyConfiguration(new UserOrganizationEntityBuilder());
         }
 
         public DbSet<LicenseEntity> Licenses { get; set; }
         public DbSet<ProductEntity> Products { get; set; }
+        public DbSet<OrganizationEntity> Organizations { get; set; }
+        public DbSet<UserEntity> Users { get; set; }
+        public DbSet<UserOrganizationEntity> UserOrganizations { get; set; }
     }
 }

@@ -9,37 +9,23 @@ using System.Text.Json.Serialization;
 
 namespace MicroAutomation.Licensing.Data.Entities;
 
-public class ProductEntity : ICreationAuditable
+public class OrganizationEntity : ICreationAuditable
 {
     #region Data
 
     public Guid Id { get; set; }
-
-    [JsonIgnore]
-    public Guid OrganizationId { get; set; }
-
     public string Name { get; set; }
     public string Description { get; set; }
-    public string Company { get; set; }
-
-    [JsonIgnore]
-    public string PassPhrase { get; set; }
-
-    [JsonIgnore]
-    public string PrivateKey { get; set; }
-
-    [JsonIgnore]
-    public string PublicKey { get; set; }
 
     #endregion Data
 
     #region Navigation
 
     [JsonIgnore]
-    public OrganizationEntity Organization { get; set; }
+    public ICollection<UserOrganizationEntity> UserOrganizations { get; set; }
 
     [JsonIgnore]
-    public ICollection<LicenseEntity> Licenses { get; set; }
+    public ICollection<ProductEntity> Products { get; set; }
 
     #endregion Navigation
 

@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace MicroAutomation.Licensing.Data.Configuration.Builders;
 
-public class ProductEntityBuilder : IEntityTypeConfiguration<ProductEntity>
+public class OrganizationEntityBuilder : IEntityTypeConfiguration<OrganizationEntity>
 {
-    public void Configure(EntityTypeBuilder<ProductEntity> builder)
+    public void Configure(EntityTypeBuilder<OrganizationEntity> builder)
     {
-        builder.ToTable(name: "Products");
+        builder.ToTable(name: "Organizations");
 
         builder.HasKey(x => x.Id);
 
@@ -24,21 +24,10 @@ public class ProductEntityBuilder : IEntityTypeConfiguration<ProductEntity>
             .IsRequired();
         builder.Property(x => x.Description)
             .HasMaxLength(128);
-        builder.Property(x => x.PassPhrase)
-            .IsRequired();
-        builder.Property(x => x.PrivateKey)
-            .IsRequired();
-        builder.Property(x => x.PublicKey)
-            .IsRequired();
 
         builder.Property(x => x.CreatedDataBy)
             .IsRequired();
         builder.Property(x => x.CreatedDataUtc)
             .IsRequired();
-
-        builder.HasOne(x => x.Organization)
-            .WithMany(x => x.Products)
-            .HasForeignKey(x => x.Organization)
-            .OnDelete(DeleteBehavior.Cascade);
     }
 }
