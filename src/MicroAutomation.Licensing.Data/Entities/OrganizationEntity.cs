@@ -9,6 +9,10 @@ using System.Text.Json.Serialization;
 
 namespace MicroAutomation.Licensing.Data.Entities;
 
+/// <summary>
+/// The organization entity in the database.
+/// </summary>
+/// <seealso cref="MicroAutomation.Licensing.Data.Abstracts.ICreationAuditable" />
 public class OrganizationEntity : ICreationAuditable
 {
     #region Data

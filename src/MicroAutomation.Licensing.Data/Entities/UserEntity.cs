@@ -1,5 +1,6 @@
 ﻿#region Using
 
+using MicroAutomation.Licensing.Data.Abstracts;
 using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
@@ -8,7 +9,12 @@ using System.Text.Json.Serialization;
 
 namespace MicroAutomation.Licensing.Data.Entities;
 
-public class UserEntity
+/// <summary>
+/// The user entity in the database.
+/// </summary>
+/// <seealso cref="MicroAutomation.Licensing.Data.Abstracts.ICreationTrackable" />
+/// <seealso cref="MicroAutomation.Licensing.Data.Abstracts.IModificationTrackable" />
+public class UserEntity : ICreationTrackable, IModificationTrackable
 {
     #region Data
 
@@ -29,7 +35,7 @@ public class UserEntity
     #region Metadata
 
     public DateTimeOffset CreatedDataUtc { get; set; }
-    public DateTimeOffset UpdatedDataUtc { get; set; }
+    public DateTimeOffset? UpdatedDataUtc { get; set; }
 
     #endregion Metadata
 }

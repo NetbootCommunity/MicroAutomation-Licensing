@@ -9,6 +9,10 @@ using System.Text.Json.Serialization;
 
 namespace MicroAutomation.Licensing.Data.Entities;
 
+/// <summary>
+/// The license entity in the database.
+/// </summary>
+/// <seealso cref="MicroAutomation.Licensing.Data.Abstracts.ICreationAuditable" />
 public class LicenseEntity : ICreationAuditable
 {
     #region Data

@@ -9,6 +9,10 @@ using System.Text.Json.Serialization;
 
 namespace MicroAutomation.Licensing.Data.Entities;
 
+/// <summary>
+/// The product entity in the database.
+/// </summary>
+/// <seealso cref="MicroAutomation.Licensing.Data.Abstracts.ICreationAuditable" />
 public class ProductEntity : ICreationAuditable
 {
     #region Data
