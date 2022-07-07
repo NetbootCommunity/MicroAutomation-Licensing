@@ -9,7 +9,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <Folder Include="Migrations\" />
+    <ProjectReference Include="..\MicroAutomation.Licensing.Data.Shared\MicroAutomation.Licensing.Data.Shared.csproj" />
   </ItemGroup>
 
 
