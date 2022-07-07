@@ -38,7 +38,7 @@ public class ProductEntityBuilder : IEntityTypeConfiguration<ProductEntity>
 
         builder.HasOne(x => x.Organization)
             .WithMany(x => x.Products)
-            .HasForeignKey(x => x.Organization)
+            .HasForeignKey(x => x.OrganizationId)
             .OnDelete(DeleteBehavior.Cascade);
     }
 }

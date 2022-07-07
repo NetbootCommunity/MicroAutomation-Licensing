@@ -1,0 +1,138 @@
+2022-07-07 16:14:41.815 +05:30 [WRN] The property 'LicenseEntity.AdditionalAttributes' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:14:41.852 +05:30 [WRN] The property 'LicenseEntity.ProductFeatures' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:14:42.063 +05:30 [INF] Entity Framework Core 6.0.6 initialized 'DataStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: MigrationsAssembly=MicroAutomation.Licensing.Data.SQLServer 
+2022-07-07 16:14:42.111 +05:30 [WRN] The property 'LicenseEntity.AdditionalAttributes' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:14:42.111 +05:30 [WRN] The property 'LicenseEntity.ProductFeatures' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:16:12.323 +05:30 [INF] Entity Framework Core 6.0.6 initialized 'DataProtectionDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: MigrationsAssembly=MicroAutomation.Licensing.Data.SQLServer 
+2022-07-07 16:17:17.382 +05:30 [INF] Entity Framework Core 6.0.6 initialized 'DataProtectionDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: MigrationsAssembly=MicroAutomation.Licensing.Data.SQLServer 
+2022-07-07 16:18:15.518 +05:30 [INF] Entity Framework Core 6.0.6 initialized 'DataProtectionDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: MigrationsAssembly=MicroAutomation.Licensing.Data.SQLServer 
+2022-07-07 16:19:27.178 +05:30 [WRN] The property 'LicenseEntity.AdditionalAttributes' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:19:27.206 +05:30 [WRN] The property 'LicenseEntity.ProductFeatures' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:19:27.384 +05:30 [INF] Entity Framework Core 6.0.6 initialized 'DataStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: MigrationsAssembly=MicroAutomation.Licensing.Data.SQLServer 
+2022-07-07 16:19:27.411 +05:30 [WRN] The property 'LicenseEntity.AdditionalAttributes' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:19:27.411 +05:30 [WRN] The property 'LicenseEntity.ProductFeatures' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:19:59.151 +05:30 [WRN] The property 'LicenseEntity.AdditionalAttributes' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:19:59.178 +05:30 [WRN] The property 'LicenseEntity.ProductFeatures' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:19:59.356 +05:30 [INF] Entity Framework Core 6.0.6 initialized 'DataStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: MigrationsAssembly=MicroAutomation.Licensing.Data.SQLServer 
+2022-07-07 16:19:59.382 +05:30 [WRN] The property 'LicenseEntity.AdditionalAttributes' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:19:59.382 +05:30 [WRN] The property 'LicenseEntity.ProductFeatures' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:20:10.617 +05:30 [INF] Entity Framework Core 6.0.6 initialized 'DataProtectionDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: MigrationsAssembly=MicroAutomation.Licensing.Data.SQLServer 
+2022-07-07 16:20:51.904 +05:30 [WRN] The property 'LicenseEntity.AdditionalAttributes' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:20:51.934 +05:30 [WRN] The property 'LicenseEntity.ProductFeatures' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2022-07-07 16:20:52.128 +05:30 [INF] Entity Framework Core 6.0.6 initialized 'DataStoreDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: MigrationsAssembly=MicroAutomation.Licensing.Data.SQLServer 
+2022-07-07 16:20:52.611 +05:30 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-07-07 16:20:52.726 +05:30 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-07-07 16:20:52.784 +05:30 [INF] Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-07-07 16:20:52.792 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-07-07 16:20:52.820 +05:30 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-07-07 16:20:52.835 +05:30 [INF] Applying migration '20220707104959_Initial'.
+2022-07-07 16:20:53.092 +05:30 [INF] Executed DbCommand (109ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Organizations] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(64) NOT NULL,
+    [Description] nvarchar(128) NULL,
+    [CreatedDataBy] uniqueidentifier NOT NULL,
+    [CreatedDataUtc] datetimeoffset NOT NULL,
+    CONSTRAINT [PK_Organizations] PRIMARY KEY ([Id])
+);
+2022-07-07 16:20:53.174 +05:30 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] uniqueidentifier NOT NULL,
+    [DisplayName] nvarchar(64) NOT NULL,
+    [UserName] nvarchar(max) NULL,
+    [Email] nvarchar(64) NOT NULL,
+    [CreatedDataUtc] datetimeoffset NOT NULL,
+    [UpdatedDataUtc] datetimeoffset NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2022-07-07 16:20:53.221 +05:30 [INF] Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrganizationId] uniqueidentifier NOT NULL,
+    [Name] nvarchar(64) NOT NULL,
+    [Description] nvarchar(128) NULL,
+    [Company] nvarchar(max) NULL,
+    [PassPhrase] nvarchar(max) NOT NULL,
+    [PrivateKey] nvarchar(max) NOT NULL,
+    [PublicKey] nvarchar(max) NOT NULL,
+    [CreatedDataBy] uniqueidentifier NOT NULL,
+    [CreatedDataUtc] datetimeoffset NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Products_Organizations_OrganizationId] FOREIGN KEY ([OrganizationId]) REFERENCES [Organizations] ([Id]) ON DELETE CASCADE
+);
+2022-07-07 16:20:53.251 +05:30 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [UserOrganizations] (
+    [Id] uniqueidentifier NOT NULL,
+    [OrganizationId] uniqueidentifier NOT NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    [Role] smallint NOT NULL,
+    [CreatedDataBy] uniqueidentifier NOT NULL,
+    [CreatedDataUtc] datetimeoffset NOT NULL,
+    CONSTRAINT [PK_UserOrganizations] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_UserOrganizations_Organizations_OrganizationId] FOREIGN KEY ([OrganizationId]) REFERENCES [Organizations] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_UserOrganizations_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2022-07-07 16:20:53.316 +05:30 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Licenses] (
+    [Id] uniqueidentifier NOT NULL,
+    [ProductId] uniqueidentifier NOT NULL,
+    [Name] nvarchar(64) NOT NULL,
+    [Email] nvarchar(64) NOT NULL,
+    [Company] nvarchar(64) NULL,
+    [Type] nvarchar(max) NOT NULL,
+    [ExpiresAt] datetime2 NOT NULL,
+    [AdditionalAttributes] nvarchar(max) NULL,
+    [ProductFeatures] nvarchar(max) NULL,
+    [CreatedDataBy] uniqueidentifier NOT NULL,
+    [CreatedDataUtc] datetimeoffset NOT NULL,
+    CONSTRAINT [PK_Licenses] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Licenses_Products_ProductId] FOREIGN KEY ([ProductId]) REFERENCES [Products] ([Id]) ON DELETE CASCADE
+);
+2022-07-07 16:20:53.320 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Licenses_ProductId] ON [Licenses] ([ProductId]);
+2022-07-07 16:20:53.323 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Organizations_Name] ON [Organizations] ([Name]);
+2022-07-07 16:20:53.326 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Products_Name] ON [Products] ([Name]);
+2022-07-07 16:20:53.329 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_OrganizationId] ON [Products] ([OrganizationId]);
+2022-07-07 16:20:53.333 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_UserOrganizations_OrganizationId] ON [UserOrganizations] ([OrganizationId]);
+2022-07-07 16:20:53.374 +05:30 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_UserOrganizations_UserId] ON [UserOrganizations] ([UserId]);
+2022-07-07 16:20:53.379 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_Users_Email] ON [Users] ([Email]);
+2022-07-07 16:20:53.435 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20220707104959_Initial', N'6.0.6');
+2022-07-07 16:21:32.812 +05:30 [INF] Entity Framework Core 6.0.6 initialized 'DataProtectionDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.6' with options: MigrationsAssembly=MicroAutomation.Licensing.Data.SQLServer 
+2022-07-07 16:21:33.222 +05:30 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-07-07 16:21:33.262 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-07-07 16:21:33.272 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2022-07-07 16:21:33.281 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-07-07 16:21:33.322 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-07-07 16:21:33.346 +05:30 [INF] Applying migration '20220707105010_Initial'.
+2022-07-07 16:21:33.418 +05:30 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [DataProtectionKeys] (
+    [Id] int NOT NULL IDENTITY,
+    [FriendlyName] nvarchar(max) NULL,
+    [Xml] nvarchar(max) NULL,
+    CONSTRAINT [PK_DataProtectionKeys] PRIMARY KEY ([Id])
+);
+2022-07-07 16:21:33.420 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20220707105010_Initial', N'6.0.6');

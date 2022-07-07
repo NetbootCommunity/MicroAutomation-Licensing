@@ -93,10 +93,10 @@ public class Program
         var builder = Host.CreateDefaultBuilder(args);
 
         // Set current directory
-        var location = new Uri(Assembly.GetEntryAssembly().GetName().CodeBase);
-        var pathContextRoot = new FileInfo(location.AbsolutePath).Directory.FullName;
-        builder.UseContentRoot(pathContextRoot);
-        Directory.SetCurrentDirectory(pathContextRoot);
+        //var location = new Uri(Assembly.GetEntryAssembly().GetName().CodeBase);
+        //var pathContextRoot = new FileInfo(location.AbsolutePath).Directory.FullName;
+        //builder.UseContentRoot(pathContextRoot);
+        //Directory.SetCurrentDirectory(pathContextRoot);
 
         // Add serilog implementation
         builder.UseCustomSerilog();
@@ -124,7 +124,6 @@ public class Program
         if (string.IsNullOrWhiteSpace(environment))
             environment = "Production";
         var isDevelopment = environment == Environments.Development;
-
         var configurationBuilder = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
